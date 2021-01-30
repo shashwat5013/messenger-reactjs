@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+       background-color: chocolate;
+}
+.message_guest{
+    background-color: white;
+    color: slategray;
+    border: 1px solid rgb(242, 245, 245);
+    width:fit-content;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #ccc;
+    font-size: 20px;
+}
+
+.message_owner{
+    background-color: rgb(143, 247, 7);
+    color: ghostwhite;
+    border: 1px solid rgb(242, 245, 245);
+    width:fit-content;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px #ccc;
+    font-size: 20px;
+}
+
+.username_card{
+    display: inline;
+    font-weight: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:blue;
+}
